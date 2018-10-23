@@ -24,6 +24,14 @@ int main() {
 	array <float, 3> arrayofFloats{ 2.0f, 3.4f }; //array - type float - holds 3 - name of array - variables in array
 	array <A, 3> objects;
 
+	cout << "The contents of the arrayofFloats is: " << endl;
+	for (index = 0; index < arrayofFloats.size(); index++) {
+	
+		cout << arrayofFloats[index] << " ";
+	
+	}
+
+
 	return 0;
 
 
